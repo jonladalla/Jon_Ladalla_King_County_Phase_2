@@ -36033,7 +36033,7 @@ plt.legend(prop={'size':15})
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_41_1.png)
+![png](output_41_1.png)
     
 
 
@@ -36804,7 +36804,7 @@ data.hist(column='price')
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_89_1.png)
+![png](output_89_1.png)
     
 
 
@@ -36832,7 +36832,7 @@ data.hist(column='price')
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_92_1.png)
+![png](output_92_1.png)
     
 
 
@@ -36856,7 +36856,7 @@ data.corr()['price'].sort_values().drop('price').plot(kind='bar')
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_96_1.png)
+![png](output_96_1.png)
     
 
 
@@ -37057,7 +37057,7 @@ sns.heatmap(corrmat, vmax = 1, square=True);
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_105_0.png)
+![png](output_105_0.png)
     
 
 
@@ -37075,7 +37075,7 @@ plt.show()
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_106_0.png)
+![png](output_106_0.png)
     
 
 
@@ -37967,7 +37967,7 @@ data[['price', 'sqft_living', 'sqft_living15']].hist(figsize=(6,6));
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_125_0.png)
+![png](output_125_0.png)
     
 
 
@@ -37984,7 +37984,7 @@ data_log[['log_sqft_living', 'log_sqft_living15']].hist(figsize=(6,6));
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_127_0.png)
+![png](output_127_0.png)
     
 
 
@@ -38010,7 +38010,7 @@ data_scaled.hist(figsize=(6,6));
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_129_0.png)
+![png](output_129_0.png)
     
 
 
@@ -38770,7 +38770,7 @@ plt.ylabel('Relative Frequency');
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_136_0.png)
+![png](output_136_0.png)
     
 
 
@@ -38789,7 +38789,7 @@ ax.legend();
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_137_0.png)
+![png](output_137_0.png)
     
 
 
@@ -38803,7 +38803,7 @@ sm.graphics.qqplot(residuals, dist=stats.norm, line='45', fit=True);
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_138_0.png)
+![png](output_138_0.png)
     
 
 
@@ -38864,7 +38864,7 @@ bed_coef.plot.bar(xlabel='Bedrooms', ylabel='Regression Coefficent',
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_142_0.png)
+![png](output_142_0.png)
     
 
 
@@ -38946,7 +38946,7 @@ codes.plot.bar(xlabel='Zipcodes', ylabel='Regression Coefficent',
 
 
     
-![png](King_County_Notebook_files/King_County_Notebook_147_0.png)
+![png](output_147_0.png)
     
 
 
