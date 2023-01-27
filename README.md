@@ -40,6 +40,4 @@ Start the server
 
 ## Demo
 
-Insert gif or link to demo
-
 https://github.com/jonladalla/Jon_Ladalla_King_County_Phase_2/blob/main/King_County_Notebook.ipynb
